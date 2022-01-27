@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1280, initial-scale=1.0">
+  <title>자담치킨</title>
+  <link rel="stylesheet" href="css/common.min.css">
+  <link rel="stylesheet" href="css/layout.min.css">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script> -->
+  <script src="js/fullDn.min.js"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <header> 
+      <!-- 로고 -->
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="자담치킨 로고"></a>
+      </div>
+
+      <div class="headerWrap">
+        <div class="head">
+          <!-- 내비게이션 -->
+
+          <ul id="gnb">
+            <li class="nav1"><a href="#">메뉴</a>
+              <ul class="sub">
+                <li><a href="sub1.html">신메뉴</a></li>
+                <li><a href="sub2-1.html">치킨메뉴</a></li>
+                <li><a href="sub2-2.html">사이드메뉴</a></li>
+                <li><a href="#">E-쿠폰</a></li>
+              </ul>
+            </li>
+            <li class="nav2"><a href="#">매장찾기</a>
+              <ul class="sub">
+                <li><a href="#">주소로찾기</a></li>
+                <li><a href="#">지도로찾기</a></li>
+              </ul>
+            </li>
+            <li class="nav3"><a href="#">치킨스토리</a>
+              <ul class="sub">
+                <li><a href="#">CEO인사말</a></li>
+                <li><a href="#">브랜드소개</a></li>
+                <li><a href="#">찾아오시는길</a></li>
+              </ul>
+            </li>
+            <li class="nav4"><a href="#">창업안내</a>
+              <ul class="sub">
+                <li><a href="#">창업상담신청</a></li>
+                <li><a href="#">창업후기</a></li>
+                <li><a href="#">창업비용및절차</a></li>
+              </ul>
+            </li>
+            <li class="nav5"><a href="#">커뮤니티</a>
+              <ul class="sub">
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">새소식</a></li>
+                <li><a href="#">고객의 소리</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </header>
+    <!-- //메인 메뉴 -->
+
+    <!-- //헤더영역 -->
+
+    <!-- 이미지슬라이더 영역 -->
+    <div class="slide-wrap">
+      <!-- (1) 인디케이터 // CSS활용 이미지슬라이드 6번 활용-->
+      <input type="radio" name="dot" id="btn1" checked>
+      <label for="btn1" id="in1" class="wide"></label>
+      <input type="radio" name="dot" id="btn2">
+      <label for="btn2" id="in2" class="wide"></label>
+      <input type="radio" name="dot" id="btn3">
+      <label for="btn3" id="in3" class="wide"></label>
+      <input type="radio" name="dot" id="btn4">
+      <label for="btn4" id="in4" class="wide"></label>
+
+      <!-- (2) 슬라이드 이미지 -->
+      <ul class="slide">
+        <li class="slide-img1 to_left">
+          <img src="images/main-slider01.png" alt="">
+        </li>
+        <li class="slide-img2 to_left">
+          <img src="images/main-slider02.png" alt="">
+        </li>
+        <li class="slide-img3 to_left">
+          <img src="images/main-slider03.png" alt="">
+        </li>
+        <li class="slide-img4 to_left">
+          <img src="images/main-slider04.png" alt="">
+        </li>
+      </ul>
+
+    </div>
+
+    <!-- 컨텐츠 영역 -->
+    <div class="container">
+      <!-- 베스트 메뉴 -->
+      <div class="best">
+        <div class="best_tit">
+          <h2>Best Menu</h2>
+          <h3>"자담의 최고 인기메뉴를 알려드릴께요"</h3>
+        </div>
+        <div class="best_menu">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/bestmenu1.jpg" alt=""></a>
+              <p><strong>스리라차치킨</strong></p>
+              <p>바삭한 명품 치킨과 시우너한 양파채<br> 상쾌하게 매운 스라라차 소스의 완벽한 조화!</p>
+
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/bestmenu2.jpg" alt=""></a>
+              <p><strong>맵슐랭치킨</strong></p>
+              <p>'첫맛은 부드럽고 끝맛은 강렬하다!'<br>청양고추와 마요소스의 눈물 찡~한 만남!<br>미슐랭 별셋도 부족한 맵단치킨의 절대지존!</p>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/bestmenu3.jpg" alt=""></a>
+              <p><strong>간장치킨</strong></p>
+              <p>국가가 부여하는 최상위 인증제도인<br>국내산 동물복지 치킨과 향긋한 간장소스가<br>어우러진 믿고 먹을 수 있는 프리미엄 치킨</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+      <!-- // 베스트 메뉴 -->
+
+      <!-- 커뮤니티 영역 -->
+      <div class="com">
+        <h2>Community</h2>
+        <h3>"자담의 새로운 소식을 만나보세요"</h3>
+      </div>
+      <!-- 이벤트 영역 -->
+      <div class="com_gnb">
+        <div class="com_wrap">
+          <div class="event">
+            <p><img src="images/event_banner1.gif" alt=""></p>
+          </div>
+          <!-- // 이벤트 영역 -->
+
+          <!-- 공지사항 영역 -->
+          <div class="box">
+            <ul class="notice">
+              <li class="news">
+                <p><strong>언론보도</strong></p>
+                <ul>
+                  <li><a href="#">자담치킨, 전속모델 조정석과 재계약</a></li>
+                  <li><a href="#">치킨, 맥주도 신제품 오디션을 본다?</a></li>
+                  <li><a href="#">자담치킨, '맵슐랭' 200만개 판매돌파</a></li>
+                </ul>
+              </li>
+              <li class="start">
+                <p><strong>새소식</strong></p>
+                <!-- 창업을 영어로해서 사용 -->
+                <ul>
+                  <li><a href="#">자담치킨 서울 염창점 오픈을 축하합니다.</a></li>
+                  <li><a href="#">자담치킨 인천 동춘점 오픈을 축하합니다.</a></li>
+                  <li><a href="#">자딤치킨 화성 향남1지구점 오픈을 축하합니다.</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- // 공지사항 영역 -->
+      </div>
+      <!-- // 커뮤니티 영역 -->
+      <!-- 이벤트 배너 영역 -->
+      <div class="banner">
+        <ul class="banner_wrap">
+          <li><a href="#"><img src="images/event_banner2.jpg" alt=""></a></li>
+          <li><a href="#"><img src="images/event_banner3.jpg" alt=""></a></li>
+          <li><a href="#"><img src="images/event_banner4.jpg" alt=""></a></li>
+        </ul>
+      </div>
+      <!-- //이벤트 배너 영역 -->
+      <!-- // 컨텐츠 영역 -->
+
+    </div>
+    <!-- // container 영역 -->
+
+    <!-- TOP 버튼-->
+    <div class="top">
+      <a href="#" class="content_top">
+        <span class="blind">TOP</span>
+      </a>
+    </div>
+    <!-- 푸터 영역  -->
+    <!-- 푸터 영역  -->
+    <footer>
+      <div class="footer">
+        <div class="footer_wrap">
+          <!-- 푸터 로고영역 -->
+          <div class="logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          <!-- // 푸터 로고영역 -->
+
+          <div class="footer_box">
+            <div class="copy">
+              <ul>
+                <li>(주)웰빙푸드 대표자:백성재 대표전화:1688-6071</li>
+                <li>팩스번호:031-938-9002 사업자등록번호:474-81-00082</li>
+                <li>본사:경기도 고양시 덕양구 화종로 72 케이찹리츠빌딩 10층</li>
+                <li>&copy; 김민아의 포트폴리오입니다.</li>
+              </ul>
+            </div>
+
+
+            <!-- SNS 영역 -->
+            <div class="sns">
+              <ul class="icon">
+                <li><a href="#"><img src="images/sns-blog.png" alt=""></a></li>
+                <li><a href="#"><img src="images/sns-facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="images/sns-instagram.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- //SNS 영역 -->
+
+        </div>
+        <!-- // 푸터영역 -->
+      </div>
+    </footer>
+
+
+    <!-- 퀵 메뉴 -->
+    <ul id="quick">
+      <li>
+        <a href="#">
+          <img src="images/quick-menu01.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/quick-menu02.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/quick-menu03.png" alt="">
+        </a>
+      </li>
+    </ul>
+
+    <!-- // 퀵 메뉴 -->
+
+  </div>
+</body>
+
+</html>
